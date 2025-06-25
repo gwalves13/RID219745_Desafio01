@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+
+#hero {
+    background-color: #303030;
+    color: white;
+    Height: 475px;
+}
+
+#title-hero {
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 206px;
+    padding-left: 62px;
+}
+
+#text-hero {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 28px;
+    padding-left: 62px;
+    color: white;
+}
+
+
+
+
+#info {
+    background-color: #f9f9f9;
+    Height: 229px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+
+}
+
+.text1-info {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.text2-info {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+
+
+#imagem-escritorio {
+    padding-left: 62px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#titulo-escritorio {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#texto-escritorio {
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+
+#formulario {
+    background-color: #303030;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+}
+
+#texto-formulario {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 62px;
+    padding-left: 32px;
+    font-size: 24px;
+}
+
+
+button {
+    background-color: #C07212;
+    color: white;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 88px;
+}
+
+button:hover {
+    background: linear-gradient(to left, #9E5D0E, #A4661A);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
